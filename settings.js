@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~hzMkgALa#M8b6_6h9EhhK0n2uIigKI0DayInki2rB13SqVLM2kMs",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -20,14 +20,14 @@ module.exports = {
 
     LINK_WHITELIST: "youtube.com,github.com",
 
-    LINK_WARN_LIMIT: 3, // Number of warnings before action
+    LINK_WARN_LIMIT: 1, // Number of warnings before action
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // make true or false status auto seen
 
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "True",
     // make true if you want auto reply on status 
 
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
